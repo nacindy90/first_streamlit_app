@@ -31,9 +31,4 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # write your own comment - normalizes dataframe
 streamlit.dataframe(fruityvice_normalized)
 
-use role pc_rivery_role;
-use warehouse pc_rivery_wh;
 
-create or replace TABLE PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST (
-	FRUIT_NAME VARCHAR(25)
-);
